@@ -3,11 +3,11 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "icochico85@gmail.com "
-    AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
+    AccountName               = "enrico-aft"
+    ManagedOrganizationalUnit = "AFT"
     SSOUserEmail              = "enrico.casini@vistry.ai"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    SSOUserFirstName          = "Enrico"
+    SSOUserLastName           = "Casini"
   }
 
   account_tags = {
