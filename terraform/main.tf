@@ -58,5 +58,5 @@ module "testcorp" {
     group = "non-prod"
   }
 
-  #account_customizations_name = "testcorp-customizations"
+  account_customizations_name = "sandbox"
 }
