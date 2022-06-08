@@ -30,16 +30,16 @@ module "testcorp" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "icochico85@gmail.com"
+    AccountEmail              = "testcorp-account-01@vistry.ai"
     AccountName               = "testcorp-account-01"
-    ManagedOrganizationalUnit = "Testcorp"
-    SSOUserEmail              = "icochico85@gmail.com"
+    ManagedOrganizationalUnit = "TestCorp"
+    SSOUserEmail              = "testcorp-account-01@vistry.ai"
     SSOUserFirstName          = "Test"
     SSOUserLastName           = "Corp"
   }
 
   account_tags = {
-    "ABC:Owner"       = "icochico85@gmail.com"
+    "ABC:Owner"       = "testcorp-account-01@vistry.ai"
     "ABC:Division"    = "ENT"
     "ABC:Environment" = "Dev"
     "ABC:CostCenter"  = "123456"
@@ -50,7 +50,7 @@ module "testcorp" {
   }
 
   change_management_parameters = {
-    change_requested_by = "Test Corp"
+    change_requested_by = "TestCorp"
     change_reason       = "testing the account vending process"
   }
 
